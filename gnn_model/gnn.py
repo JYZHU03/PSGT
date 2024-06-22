@@ -104,7 +104,7 @@ parser.add_argument('--lr', type=float, default=0.01, help='learning rate')
 parser.add_argument('--weight_decay', type=float, default=0.01, help='weight decay')
 parser.add_argument('--nhid', type=int, default=128, help='hidden size')
 parser.add_argument('--dropout_ratio', type=float, default=0.0, help='dropout ratio')
-parser.add_argument('--epochs', type=int, default=600, help='maximum number of epochs') #35
+parser.add_argument('--epochs', type=int, default=600, help='maximum number of epochs') 
 parser.add_argument('--concat', type=bool, default=False, help='whether concat news embedding and graph embedding')
 parser.add_argument('--multi_gpu', type=bool, default=False, help='multi-gpu mode')
 parser.add_argument('--feature', type=str, default='bert', help='feature type, [profile, spacy, bert, content]')
