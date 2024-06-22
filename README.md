@@ -16,3 +16,15 @@ For instance, after downloading the raw data, one can place the data in the `dat
 cd gnn_model
 python PSGT
 ```
+
+## Citation
+
+If you find this work useful, please cite our KDD 2024 paper:
+```bibtex
+@inproceedings{zhu2024propagation,
+  title={Propagation Structure-Aware Graph Transformer for Robust and Interpretable Fake News Detection},
+  author={Zhu, Junyou and Gao, Chao and Yin, Ze and Li, Xianghua and Kurths, Juergen},
+  booktitle={Proceedings of the 30th ACM SIGKDD international conference on knowledge discovery \& data mining},
+  year={2024}
+}
+```
