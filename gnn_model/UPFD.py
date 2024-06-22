@@ -24,9 +24,11 @@ Paper: Fake News Detection on Social Media using Geometric Deep Learning
 Link: https://arxiv.org/pdf/1902.06673.pdf
 
 
-Model Configurations:
+UPFD:
+Paper: User preference-aware fake news detection
+Link: https://dl.acm.org/doi/pdf/10.1145/3404835.3462990
 
-UPFD: args.concat = True, args.feature = spacy
+UPFD setting: args.concat = True, args.feature = spacy
 
 """
 
