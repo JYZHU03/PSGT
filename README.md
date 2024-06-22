@@ -4,11 +4,11 @@ The implementation for the paper "Propagation Structure-aware Graph Transformer 
 We have tested our code on a Linux system equipped with `Python 3.10`, `PyTorch 1.13.1`, `PyG 2.2.0` and `CUDA 11.7`.
 
 ## Dataset
-Since the dataset is too large, we provide a processed `politifact` data.
+Since the dataset is too large, we provide the raw and processed `politifact` data.
 
-One can easily download the raw dataset from a public source released by previous works: https://drive.google.com/drive/folders/1OslTX91kLEYIi2WBnwuFtXsVz5SS_XeR?usp=sharing
+One can easily download the raw dataset of `gossipcop` from a public source released by previous works: https://drive.google.com/drive/folders/1OslTX91kLEYIi2WBnwuFtXsVz5SS_XeR?usp=sharing
 
-For instance, after downloading the raw data, one can place the politifact data in the `data/politifact/raw directory`.
+After downloading the raw data, one can place the gossipcop data in the `data/gossipcop/raw` directory.
 
 
 ## Run Examples
