@@ -62,7 +62,7 @@ class Model(torch.nn.Module):
 		x = gmp(x, batch)
 
 		if self.concat:
-			news = torch.stack([data.x[(data.batch == idx).nonzero().squeeze()[0]] for idx in range(data.num_graphs)]) #{Tensor:（62,768）}这段代码的意思是获取每个图的第一个节点的特征，然后将它们堆叠起来形成一个新的张量。
+			news = torch.stack([data.x[(data.batch == idx).nonzero().squeeze()[0]] for idx in range(data.num_graphs)])
 			news = F.relu(self.lin0(news))
 			x = torch.cat([x, news], dim=1)
 			x = F.relu(self.lin1(x))
