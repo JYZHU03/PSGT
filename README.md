@@ -1,14 +1,14 @@
-This is the code for the paper "Propagation Structure-aware Graph Transformer for Robust and Interpretable Fake News Detection"
+The implementation for the paper "Propagation Structure-aware Graph Transformer for Robust and Interpretable Fake News Detection"
 ## Installation
 
-We have tested our code on Linux system equipped with `Python 3.10` with `PyTorch 1.13.1`, `PyG 2.2.0` and `CUDA 11.7`. 
+We have tested our code on a Linux system equipped with `Python 3.10`, `PyTorch 1.13.1`, `PyG 2.2.0` and `CUDA 11.7`.
 
 ## Dataset
-Since the dataset is too large, one can download the dataset from a public source released by previous works.
+Since the dataset is too large, we provide a processed `politifact` data.
 
-Specifically, for raw datasets, the earlier study have already published the raw data at the following location: https://drive.google.com/drive/folders/1OslTX91kLEYIi2WBnwuFtXsVz5SS_XeR?usp=sharing
+One can easily download the raw dataset from a public source released by previous works: https://drive.google.com/drive/folders/1OslTX91kLEYIi2WBnwuFtXsVz5SS_XeR?usp=sharing
 
-For instance, after downloading the raw data, one can place the data in the `data/politifact/raw` directory.
+For instance, after downloading the raw data, one can place the politifact data in the `data/politifact/raw directory`.
 
 
 ## Run Examples
