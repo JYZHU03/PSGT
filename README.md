@@ -23,6 +23,7 @@ If you find this work useful, please cite our KDD 2024 paper:
   title={Propagation Structure-Aware Graph Transformer for Robust and Interpretable Fake News Detection},
   author={Zhu, Junyou and Gao, Chao and Yin, Ze and Li, Xianghua and Kurths, Juergen},
   booktitle={Proceedings of the 30th ACM SIGKDD international conference on knowledge discovery \& data mining},
+  pages={4652--4663},
   year={2024}
 }
 ```
